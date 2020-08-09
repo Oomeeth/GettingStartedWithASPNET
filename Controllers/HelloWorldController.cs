@@ -11,6 +11,7 @@ namespace Getting_Started.Controllers
     public class HelloWorldController : Controller
     {
         /*
+         * BLOCK 1
          * public methods are callable HTTP endpoints, which is a targetable URL.
          * Run (CTRL + F5) the app and try appending 'HelloWorld' to the URL. Then try appending 'HelloWorld/Index' and 'HelloWorld/Welcome'
          * Have a look at Configure in Startup.cs to view the format for the URL routing logic
@@ -27,6 +28,7 @@ namespace Getting_Started.Controllers
         }
 
         /*
+         * BLOCK 2:
          * The method below allows you to specify paramteres to the URL.
          * Run the app and append the following to the URL 'HelloWorld/WelcomeParams?name=John&id=4'
          * 
