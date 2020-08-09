@@ -1,0 +1,37 @@
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\bin\Debug\netcoreapp3.1\Getting Started.exe
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\bin\Debug\netcoreapp3.1\Getting Started.deps.json
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\bin\Debug\netcoreapp3.1\Getting Started.runtimeconfig.json
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\bin\Debug\netcoreapp3.1\Getting Started.runtimeconfig.dev.json
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\bin\Debug\netcoreapp3.1\Getting Started.dll
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\bin\Debug\netcoreapp3.1\Getting Started.pdb
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\bin\Debug\netcoreapp3.1\Getting Started.Views.dll
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\bin\Debug\netcoreapp3.1\Getting Started.Views.pdb
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\obj\Debug\netcoreapp3.1\Getting Started.csprojAssemblyReference.cache
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\obj\Debug\netcoreapp3.1\Getting Started.AssemblyInfoInputs.cache
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\obj\Debug\netcoreapp3.1\Getting Started.AssemblyInfo.cs
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\obj\Debug\netcoreapp3.1\Getting Started.csproj.CoreCompileInputs.cache
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\obj\Debug\netcoreapp3.1\Getting Started.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\obj\Debug\netcoreapp3.1\Getting Started.RazorAssemblyInfo.cache
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\obj\Debug\netcoreapp3.1\Getting Started.RazorAssemblyInfo.cs
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\obj\Debug\netcoreapp3.1\Getting Started.TagHelpers.input.cache
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\obj\Debug\netcoreapp3.1\Getting Started.TagHelpers.output.cache
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\obj\Debug\netcoreapp3.1\Getting Started.RazorCoreGenerate.cache
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\obj\Debug\netcoreapp3.1\Getting Started.RazorTargetAssemblyInfo.cache
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\obj\Debug\netcoreapp3.1\Getting Started.RazorTargetAssemblyInfo.cs
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\obj\Debug\netcoreapp3.1\Getting Started.Views.pdb
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\obj\Debug\netcoreapp3.1\staticwebassets\Getting Started.StaticWebAssets.Manifest.cache
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\obj\Debug\netcoreapp3.1\staticwebassets\Getting Started.StaticWebAssets.xml
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\obj\Debug\netcoreapp3.1\Getting Started.dll
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\obj\Debug\netcoreapp3.1\Getting Started.pdb
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\obj\Debug\netcoreapp3.1\Getting Started.genruntimeconfig.cache
+C:\Users\user-pc\source\repos\Getting Started\Getting Started\obj\Debug\netcoreapp3.1\Getting Started.csproj.CopyComplete
