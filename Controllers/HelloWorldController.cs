@@ -36,5 +36,20 @@ namespace Getting_Started.Controllers
         {
             return View();
         }
+
+        /*
+         * BLOCK 3
+         * The below controller method accepts an input from the URL and displays it in the browser.
+         * Try appending /HelloWorld/Person/3?name=John&numTimes=2 to the URL.
+         */
+
+        public IActionResult Person(string name, int id, int numTimes = 1)
+        {
+            ViewData["name"] = name;
+            ViewData["id"] = id;
+            ViewData["numTimes"] = numTimes;
+
+            return View();
+        }
     }
 }

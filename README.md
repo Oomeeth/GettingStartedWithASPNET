@@ -1,5 +1,6 @@
 # What is this?
 This is a 'getting started' guide for ASP.NET. In this branch we will learn ***how to create a view***.
+Displays data provided by controllers.
 
 # Steps To Follow
 - Open up HelloWorldController.cs
