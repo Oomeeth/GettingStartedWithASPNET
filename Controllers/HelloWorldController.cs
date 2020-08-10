@@ -12,29 +12,33 @@ namespace Getting_Started.Controllers
     {
         /*
          * BLOCK 1
-         * To add a view change the Index method to the one below.
-         * Create a folder under Views called HelloWorld. Create a html view called Index.cshtml.
-         * 
-         * Have a look at Views/HelloWorld/Index.cshtml.
-         * Run the app and append /HelloWorld/Index to the URL.
-         * 
-         * Because a view template was not specified, ASP.NET will render the default view, which is has the same name as the method and located within the HelloWorld folder
+         * public methods are callable HTTP endpoints, which is a targetable URL.
+         * Run (CTRL + F5) the app and try appending 'HelloWorld' to the URL. Then try appending 'HelloWorld/Index' and 'HelloWorld/Welcome'
+         * Have a look at Configure in Startup.cs to view the format for the URL routing logic
          */
 
-        public IActionResult Index()
+        public string Index()
         {
-            return View();
+            return "This is my default action.";
         }
 
-        /* 
-         * BLOCK 2
-         * Run the app and append /HelloWorld/Welcome to the URL.
-         * Have a look at the Welcome template Views/HelloWorld/Welcome.cshtml.
+        public string Welcome()
+        {
+            return "This is the welcome action method.";
+        }
+
+        /*
+         * BLOCK 2:
+         * The method below allows you to specify paramteres to the URL.
+         * Run the app and append the following to the URL 'HelloWorld/WelcomeParams?name=John&id=4'
+         * 
+         * Another way to run this would be to append the following to the URL 'HelloWorld/Welcome/3?name=Rick'
+         * Notice that the above URL matches the routing format in Startup.cs Config() '{controller=Home}/{action=Index}/{id?}'
          */
 
-        public IActionResult Welcome()
+        public string WelcomeParams(string name, int id = 1)
         {
-            return View();
+            return HtmlEncoder.Default.Encode($"Hello {name}, ID is {id}");
         }
     }
 }
