@@ -7,11 +7,9 @@ This is a 'getting started' guide for ASP.NET. In this branch we will learn ***h
     ```
         public int Id { get; set; }
         public string Title { get; set; }
-
-        [DataType(DataType.Date)]
-        public DateTime ReleaseDataTime;
-        public string Genre { get; set; }
-        public int Price { get; set; }
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        public string Role { get; set; }
     ```
 - Install the provider for EF Core SQL Server: Navigate to `Tools > NuGet Package Manager > Package Manager Console` and enter the command `Install-Package Microsoft.EntityFrameworkCore.SqlServer`
 - Create a database context class (for C.R.U.D functionality): 
