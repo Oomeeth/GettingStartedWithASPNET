@@ -45,4 +45,4 @@ This is a 'getting started' guide for ASP.NET. In this branch we will learn ***h
 - Migrations is a set of tools to create and update a database to match your data model:
   - `Tools > select NuGet Package Manager > Package Manager Console` and enter the following 2 commands: `Add-Migration InitialCreate` and `Update-Database`.
 
-  - **Move to *Dependency injection in the controller: * https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/adding-model?view=aspnetcore-3.1&tabs=visual-studio**
+  - **Move to Dependency injection in the controller: *https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/adding-model?view=aspnetcore-3.1&tabs=visual-studio***
