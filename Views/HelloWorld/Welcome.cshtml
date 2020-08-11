@@ -5,4 +5,11 @@
 
 <h1>Welcome</h1>
 
-<h3>This is a welcome view template!</h3>
+<h3>Welcome to The Persons App!</h3>
+
+@for (int i = 0; i < (int)ViewData["numTimes"]; ++i)
+{
+    <h3>Name: @ViewData["method"]</h3>
+    <h3>Name: @ViewData["name"]</h3>
+    <h3>ID: @ViewData["id"]</h3>
+}
