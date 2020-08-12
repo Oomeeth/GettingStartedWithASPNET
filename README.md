@@ -45,4 +45,8 @@ This is a 'getting started' guide for ASP.NET. In this branch we will learn ***h
 - Migrations is a set of tools to create and update a database to match your data model:
   - `Tools > select NuGet Package Manager > Package Manager Console` and enter the following 2 commands: `Add-Migration InitialCreate` and `Update-Database`.
 
-  - **Move to Dependency injection in the controller: *https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/adding-model?view=aspnetcore-3.1&tabs=visual-studio***
+# How does Model, Views and Controllers interact with each other?
+- Have a look at the `Details()` method in `PeopleController.cs`. 
+  - The method accepts an id value to a person. Appending `People/Details/1` to the URL will display the details for the first person. 
+  - `var movie = await _context.Person.FirstOrDefaultAsync(m => m.Id == id);` will select `Person` entities that match the route data. If a `Person` is found it is passed through `return View(person);`
+  - In `Details.cshtml` you will see a `@model MvcMovie.Models.Person` at the top. This directive was created by scaffolding allows access to the `Person` model which has been passed in from the controller (`return View(person);` above).
