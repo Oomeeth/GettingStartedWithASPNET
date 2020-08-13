@@ -16,9 +16,10 @@ Controller handles and responds user inputs and interactions. They retrieve mode
 
         return View();
     }
-    public IActionResult Index(string name, int id, int numTimes = 1)
+
+    public IActionResult Welcome(string name = "John", int id = 4, int numTimes = 1)
     {
-        ViewData["method"] = "Index";
+        ViewData["method"] = "Welcome";
         ViewData["name"] = name;
         ViewData["id"] = id;
         ViewData["numTimes"] = numTimes;
@@ -28,8 +29,9 @@ Controller handles and responds user inputs and interactions. They retrieve mode
 ```
 The above line of code requires a view called `Index.cshtml` and `Welcome.cshtml` view. **The view name MUST match the method name!**
 - To pass data from the controller to a view do the following:
+  - `Right Click Views > Add > Folder. Call it HelloWorld`
   - Create 2 views called `Index.cshtml` and `Welcome.cshtml`.
-    - `Right Click Views > Add > Folder. Call it HelloWorld > Right click HelloWorld > Add > View > Razor View - Empty > Call it Index.cshtml`
+    - `Right click HelloWorld > Add > View > Razor View - Empty > Call it Index.cshtml`
   - Add the following code to the end of `Index.cshtml`:
   ```
     <h3>Welcome to The Persons App!</h3>
