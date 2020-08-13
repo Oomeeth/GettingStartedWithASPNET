@@ -27,7 +27,7 @@ namespace Getting_Started
         {
             services.AddControllersWithViews();
 
-            services.AddDbContext<PersonContext>(options => options.UseSqlServer(Configuration.GetConnectionString("MvcMovieContext")));
+            services.AddDbContext<PersonContext>(options => options.UseSqlServer(Configuration.GetConnectionString("PersonContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
