@@ -24,15 +24,9 @@ A controller handles incoming browser requests. It receives data and decides wha
 - To pass a query string into the URL:
   - Replace Welcome with the following code:
   ```
-    using Microsoft.AspNetCore.Mvc;
-    using System.Text.Encodings.Web;
-
-    namespace MvcMovie.Controllers
+    public string Welcome(string name, int ID = 1)
     {
-        public string Welcome(string name, int ID = 1)
-        {
-            return HtmlEncoder.Default.Encode($"Hello {name}, ID: {ID}");
-        }
+        return HtmlEncoder.Default.Encode($"Hello {name}, ID: {ID}");
     }
   ```
   - Run the app.
@@ -40,7 +34,7 @@ A controller handles incoming browser requests. It receives data and decides wha
 
 # Additional Notes:
 - All `public` methods are callable HTTP endpoints. `Index()` and `Welcome` are examples. An HTTP endpoint is a targetable URL in the web application.
-- Both methods in the `HelloWorldController` code above are `HTTP GET` methods
+- Both methods in the `HelloWorldController` class code above are `HTTP GET` methods
 - To view the routing format:
   - Open `Startup.cs`. 
   - Look at the Lambda expression inside `app.UseEndpoints()`.
