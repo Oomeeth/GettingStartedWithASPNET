@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewData["Title"] = "Welcome";
+}
+
+<h1>Welcome</h1>
+
+<h2>Method: @ViewData["method"]</h2>
+
+@for (int i = 0; i < (int)ViewData["repeat"]; ++i)
+{
+    <h3>Name: @ViewData["name"]</h3>
+    <h3>Surname: @ViewData["surname"]</h3>
+    <h3>ID: @ViewData["id"]</h3>
+}
