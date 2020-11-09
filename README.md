@@ -4,7 +4,7 @@ A controller handles incoming browser requests. It receives data and decides wha
 
 # Steps To Follow
 - Create a `Controller`: 
-  - Solution Explorer > Controllers > Add > Controller > Controller Clas - Empty > Create a Controller called `HelloWorldController.cs` > Click Add.
+  - Solution Explorer > Controllers > Add > Controller > Controller Class - Empty > Create a Controller called `HelloWorldController.cs` > Click Add.
 - Replace the contents of `HelloWorldController` with the following:
 ```
     public class HelloWorldController : Controller
@@ -33,7 +33,7 @@ A controller handles incoming browser requests. It receives data and decides wha
   - Append the following to the URL: `HelloWorld/Welcome/3?name=Rick` and `HelloWorld/Welcome?name=John&id=5`.
 
 # Additional Notes:
-- All `public` methods are callable HTTP endpoints. `Index()` and `Welcome` are examples. An HTTP endpoint is a targetable URL in the web application.
+- All `public` methods are callable HTTP endpoints. `Index()` and `Welcome()` are examples. An HTTP endpoint is a targetable URL in the web application.
 - Both methods in the `HelloWorldController` class code above are `HTTP GET` methods
 - To view the routing format:
   - Open `Startup.cs`. 
